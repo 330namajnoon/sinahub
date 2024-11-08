@@ -13,7 +13,3 @@ node_modules
 #!.yarn/cache
 .pnp.*
 .env
-digi-manager
-digi-server
-sm-babylonts
-sm-express-server

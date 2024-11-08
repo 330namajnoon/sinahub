@@ -4,3 +4,9 @@
 [submodule "my3dportfolio"]
 	path = my3dportfolio
 	url = git@github.com:330namajnoon/my3dportfolio.git
+[submodule "sm-express-server"]
+	path = sm-express-server
+	url = git@github.com:330namajnoon/express-server.git
+[submodule "sm-babylonts"]
+	path = sm-babylonts
+	url = git@github.com:330namajnoon/sm-babylonts.git
