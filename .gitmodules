@@ -1,3 +1,6 @@
 [submodule "my-server"]
 	path = my-server
 	url = git@github.com:330namajnoon/my-server.git
+[submodule "my3dportfolio"]
+	path = my3dportfolio
+	url = git@github.com:330namajnoon/my3dportfolio.git
