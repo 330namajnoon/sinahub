@@ -1,4 +1,26 @@
 {
   "name": "sinahub",
-  "packageManager": "yarn@4.2.2"
+  "private": true,
+  "workspaces": [
+    "my3dportfolio",
+    "sm-babylonts",
+    "sm-express-server",
+    "server",
+    "digi-manager",
+    "digi-server"
+
+  ],
+  "scripts": {
+    "start:server": "npm run start --workspace=server",
+    "start:server:dev": "npm run start:dev --workspace=server",
+    "start:my3dportfolio": "npm run dev --workspace=my3dportfolio",
+    "start:digi:server": "npm run start --workspace=digi-server",
+    "start:digi:server:dev": "npm run start:dev --workspace=digi-server",
+    "start:digi:manager": "npm run dev --workspace=digi-manager",
+    "start:all:dev": "concurrently \"npm run start:server:dev\" \"npm run start:my3dportfolio\"",
+    "start:all": "concurrently \"npm run start:server\" \"npm run start:my3dportfolio\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
 }
