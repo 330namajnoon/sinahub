@@ -5,10 +5,7 @@
     "my3dportfolio",
     "sm-babylonts",
     "sm-express-server",
-    "my-server",
-    "digi-manager",
-    "digi-server"
-
+    "my-server"
   ],
   "scripts": {
     "start:server": "npm run start --workspace=server",
