@@ -10,3 +10,6 @@
 [submodule "sm-babylonts"]
 	path = sm-babylonts
 	url = git@github.com:330namajnoon/sm-babylonts.git
+[submodule "3d-projects"]
+	path = 3d-projects
+	url = https://github.com/Norman-002/my_3d_porfolio.git
