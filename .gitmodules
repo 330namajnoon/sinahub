@@ -13,3 +13,6 @@
 [submodule "3d-projects"]
 	path = 3d-projects
 	url = https://github.com/Norman-002/my_3d_porfolio.git
+[submodule "public"]
+	path = public
+	url = git@github.com:330namajnoon/public.git

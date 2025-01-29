@@ -5,7 +5,8 @@
     "my3dportfolio",
     "sm-babylonts",
     "sm-express-server",
-    "my-server"
+    "my-server",
+    "public"
   ],
   "scripts": {
     "start:server": "npm run start --workspace=server",
