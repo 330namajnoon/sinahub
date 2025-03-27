@@ -10,13 +10,14 @@
   ],
   "scripts": {
     "start:server": "npm run start --workspace=server",
+    "start:public": "npm run dev --workspace=public",
     "start:server:dev": "npm run start:dev --workspace=server",
     "start:my3dportfolio": "npm run dev --workspace=my3dportfolio",
     "start:digi:server": "npm run start --workspace=digi-server",
     "start:digi:server:dev": "npm run start:dev --workspace=digi-server",
     "start:digi:manager": "npm run dev --workspace=digi-manager",
     "start:all:dev": "concurrently \"npm run start:server:dev\" \"npm run start:my3dportfolio\"",
-    "start:all": "concurrently \"npm run start:server\" \"npm run start:my3dportfolio\""
+    "start:all": "concurrently \"npm run start:server\" \"npm run start:public\""
   },
   "devDependencies": {
     "concurrently": "^9.0.1"
